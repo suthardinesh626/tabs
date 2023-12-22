@@ -1,0 +1,17 @@
+.icons {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  border: 1px solid gray;
+  width: 56px;
+  height: 100%;
+}
+
+.icons img{
+    margin: 15px;
+}
+
+.shopify-icon{
+    margin-top: 85px;
+}

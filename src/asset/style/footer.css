@@ -1,0 +1,36 @@
+.Footer-main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1095px;
+    border: solid 1px gray;
+}
+.tic-del{
+    /* background: red; */
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    width: 250px;
+    margin: 0px  10px;
+}
+
+.items{
+    padding: 14px 25px;
+    border-radius: 8px;
+    border: solid 1px gray;
+    color: gray;
+}
+.open-btn{
+    background: #1DA1F2;
+    height:39px;
+    width: 139px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 25px;
+    border-radius: 5px;
+    color: white;
+    
+}

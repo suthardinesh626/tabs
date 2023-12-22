@@ -1,0 +1,186 @@
+
+.chat{
+    width: 774px;
+}
+
+.top-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 1px solid gray;
+}
+
+.tag{
+    border: solid 1px gray;
+    background-color: rgb(194, 180, 180);
+    padding: 8px 20px;
+    border-radius: 16px;
+}
+.topnav-in{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.topnav-in img{
+    height: 46px;
+    margin: 0 25px;
+}
+
+.message-area{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+
+.text{
+    text-align: start;
+}
+
+.attach{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 20px 0px;
+}
+
+.attach-pdf{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid gray;
+    padding: 5px;
+}
+.pdf-main{
+    margin: 0 25px;
+}
+
+.pdf-text1{
+    margin: 1px;
+}
+.pdf-text2{
+    font-size: 10px;
+}
+
+.pdf-down{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.download-logo{
+    border: 1px solid gray;
+    border-radius: 180px;
+    padding: 2px;
+}
+.between-text{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #F0F1FA;
+    padding: 3px;
+}
+
+.between-text1{
+    color: #334760;
+    font-weight: 600;
+}
+.between-text2{
+    background-color: #A5AEED;
+    padding: 10px;
+    border-radius: 25px;
+    color: white;
+}
+.bottom-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+}
+.bottom-nav img{
+    margin: 0 20px 0 90px ;
+    height: 46px
+}
+.just-div{
+    background-color: white;
+    /* border: 1px solid gray; */
+    height: 60px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .13), 0 1px 1px 0 rgba(0, 0, 0, .11);
+    margin: 0 0 10px 0;
+}
+.ford-back-area{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.ford-back-btn{
+    display: flex;
+    flex-direction: row;   
+}
+.ford{
+    border: 1px solid gray;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 4px;
+    background-color: white;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    width: 90px;
+    height: 30px;
+}
+.back{
+    border: 1px solid gray;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 4px;
+    background-color: white;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    width: 75px;
+    height: 30px;
+}
+.chat-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: #F0F1FA; */
+    width: 100%;
+}
+.send-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1DA1F2;
+    width: 80px;
+    height: 34px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+.text-area{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: #fff;
+    height: 34px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+.type{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 15px;
+    width: 24%;
+    color: gray;
+}

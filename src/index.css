@@ -1,0 +1,60 @@
+.Sidebar{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid gray;
+  padding: 4px;
+  width: 250px;
+  height: inherit;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.Sidebar img{
+  margin-top: -40px;
+}
+
+.Image-bg{
+  height: 100px;
+  width: 250px;
+  background-color: rgb(13, 78, 182);
+}
+.user-email{
+  margin: 0;
+  padding: 0;
+  color: gray;
+  font-family:'Times New Roman', Times, serif;
+}
+.user-name{
+  margin: 0;
+  padding: 0;
+}
+.option-section{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  /* background: red; */
+  height: auto;
+  width:max-content;
+  width: 90%;
+}
+.option{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  width: 100%;
+
+}
+.tag-text{
+  color:gray;
+}
+.select-opt{
+  padding: 0;
+  margin: 0;
+  width: max-content;
+  height: 30px;
+  width: 80%;
+  border-radius: 4px;
+  border: solid 1px rgb(133, 193, 225);
+  text-align: center;
+  color: gray;
+}
