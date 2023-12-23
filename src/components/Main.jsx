@@ -3,6 +3,7 @@ import Header from './Header';
 import Chat from './Chat';
 import SideNav from './SideNav';
 import SideBar from '../components/SideBar';
+import Footer from './Footer'
 import '../asset/style/main.css';
 
 const Main = () => {
@@ -59,11 +60,12 @@ const Main = () => {
           onDrop={handleDrop}
           onDragOver={allowDrop}
         >
-          <div ref={rightContentRef}>
+          <div className="grand-side"  ref={rightContentRef}>
             <SideBar />
           </div>
         </div>
       </div>
+      <Footer/>
     </div>
   );
 };

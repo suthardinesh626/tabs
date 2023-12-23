@@ -1,6 +1,9 @@
 
 .chat{
     width: 774px;
+    height: fit-content;
+    margin: 0;
+    padding: 0;
 }
 
 .top-nav{
@@ -9,6 +12,7 @@
     justify-content: space-evenly;
     align-items: center;
     border: 1px solid gray;
+    height: 60px;
 }
 
 .tag{
@@ -16,6 +20,7 @@
     background-color: rgb(194, 180, 180);
     padding: 8px 20px;
     border-radius: 16px;
+    cursor: pointer;
 }
 .topnav-in{
     display: flex;
@@ -33,6 +38,8 @@
     flex-direction: column;
     justify-content: start;
     align-items: start;
+    height: 355px ;
+    /* background-color: #334760; */
 }
 
 .text{
@@ -44,6 +51,7 @@
     flex-direction: row;
     align-items: center;
     margin: 20px 0px;
+    height: 30px;
 }
 
 .attach-pdf{
@@ -53,6 +61,7 @@
     align-items: center;
     border: 1px solid gray;
     padding: 5px;
+    /* background-color: #1DA1F2; */
 }
 .pdf-main{
     margin: 0 25px;
@@ -82,6 +91,8 @@
     justify-content: space-between;
     background-color: #F0F1FA;
     padding: 3px;
+    /* background-color: yellow; */
+    height: 65px;
 }
 
 .between-text1{
@@ -99,6 +110,8 @@
     flex-direction: row;
     justify-content: start;
     align-items: center;
+    height: 50px;
+    /* background-color: red; */
 }
 .bottom-nav img{
     margin: 0 20px 0 90px ;
@@ -107,7 +120,7 @@
 .just-div{
     background-color: white;
     /* border: 1px solid gray; */
-    height: 60px;
+    height: 20px;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .13), 0 1px 1px 0 rgba(0, 0, 0, .11);
     margin: 0 0 10px 0;
 }
@@ -115,10 +128,12 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 50px;
 }
 .ford-back-btn{
     display: flex;
-    flex-direction: row;   
+    flex-direction: row;  
+    /* height: 100px;  */
 }
 .ford{
     border: 1px solid gray;
@@ -132,6 +147,7 @@
     border-bottom-right-radius: 25px;
     width: 90px;
     height: 30px;
+    cursor: pointer;
 }
 .back{
     border: 1px solid gray;
@@ -145,6 +161,8 @@
     border-bottom-left-radius: 25px;
     width: 75px;
     height: 30px;
+    cursor: pointer;
+
 }
 .chat-box{
     display: flex;
@@ -161,8 +179,11 @@
     background-color: #1DA1F2;
     width: 80px;
     height: 34px;
+    border: 0px;
     border-top-right-radius: 25px;
     border-bottom-right-radius: 25px;
+    cursor: pointer;
+
 }
 .text-area{
     display: flex;

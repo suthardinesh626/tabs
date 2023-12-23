@@ -1,18 +1,24 @@
 .chat-nav{
     display: flex;
+    /* margin: 0; */
+    /* padding: 0; */
 }
 .main-body{
-    margin: 0;
+    margin: 0;  
     padding: 0;
     display: flex;
     flex-direction:row;
-    border: solid 2px gray;
+    /* border: solid 2px gray; */
     padding: 3px;
 }
 .main-page{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     /* border: 1px solid gray; */
-
+    padding: 0;
+}
+.grand-side{
+    height: 100%;
 }

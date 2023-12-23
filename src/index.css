@@ -7,6 +7,8 @@
   padding: 4px;
   width: 250px;
   height: inherit;
+  margin: 5px;
+  padding: 0;
   font-family:Georgia, 'Times New Roman', Times, serif;
 }
 .Sidebar img{

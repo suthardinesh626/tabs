@@ -16,8 +16,8 @@ const Chat = () => {
           <img src={message} alt="" />
           <h3>How can I get refund for my order?</h3>
         </div>
-        <p className="tag">Tag</p>
-        <p className="tag">Tag2</p>
+        <button className="tag">Tag</button>
+        <button className="tag">Tag2</button>
       </div>
       <div className="message-area">
         <p>Hi,</p>
@@ -77,7 +77,7 @@ const Chat = () => {
             <img src={attach} alt="" />
           </div>
           <div>
-            <p className="send-btn">send</p>
+            <button className="send-btn">send</button>
           </div>
         </div>
       </div>

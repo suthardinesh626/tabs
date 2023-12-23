@@ -1,7 +1,7 @@
 .main-head {
   border: solid 1px gray;
   width: 834px;
-  height: 170px;
+  height: 155px;
 }
 .header {
   display: flex;
@@ -20,6 +20,7 @@
   font-size: xx-large;
   background-color: #fff;
   font-weight:100;
+  height: 10px;
 }
 .header img {
   margin: 35px 0px 0px 35px;
